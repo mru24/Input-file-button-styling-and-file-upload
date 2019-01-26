@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container #upload-button {
+  margin: 50px auto;
+  width: 120px;
+  height: 40px;
+  background: #2a7ead;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container #upload-button input[type=file] {
+  width: .1px;
+  height: .1px;
+  position: relative;
+  z-index: -1;
+}
